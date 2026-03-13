@@ -1,45 +1,63 @@
 # SSTL
 
-My attempt at implementing STL libraries
+My attempt at implementing STL libraries.
 
-## To-Do:
-### Containers:
-- list
+## Roadmap
 
-### Iterators:
-- iterator traits
-- reverse iterators
+### Utility (Core)
 
-### Algorithm:
-- sort
-- find
-- transform
+- [ ] move
+- [ ] forward
+- [ ] swap
+- [ ] pair
 
-### Memory:
-- allocator
-- uninitialized
+### Iterators
 
-### Utility:
-- pair
-- optional
-- span
+- [ ] iterator tags
+- [ ] iterator_traits
+- [ ] reverse_iterator
 
-### Smart Pointer:
-- unqiue ptr
-- shared ptr
+### Memory
 
-## Done:
-### Containers:
-- deque
-- smallvector
-- vector
-### Iterators:
-none
-### Algorithm:
-none
-### Memory:
-none
-### Utility:
-none
-### Smart Pointer:
-none
+- [ ] allocator
+- [ ] construct
+- [ ] destroy
+- [ ] uninitialized_copy
+- [ ] uninitialized_move
+- [ ] uninitialized_fill
+
+### Algorithms
+
+- [ ] find
+- [ ] for_each
+- [ ] copy
+- [ ] move
+- [ ] transform
+- [ ] sort
+
+### Containers
+
+- [x] vector
+- [x] smallvector
+- [x] deque
+- [ ] list
+- [ ] forward_list
+
+### Smart Pointers
+
+- [ ] unique_ptr
+- [ ] shared_ptr
+- [ ] weak_ptr
+
+### Utility Types
+
+- [ ] optional
+- [ ] span
+- [ ] tuple
+
+### Advanced Containers
+
+- [ ] rb_tree
+- [ ] map
+- [ ] set
+- [ ] unordered_map
