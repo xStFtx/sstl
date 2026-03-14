@@ -6,7 +6,7 @@ My attempt at implementing STL libraries.
 
 ### Utility (Core)
 
-- [ ] move
+- [x] move
 - [ ] forward
 - [ ] swap
 - [ ] pair
